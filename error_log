@@ -1,0 +1,2 @@
+[14-Nov-2016 15:06:46 Europe/Kiev] PHP Warning:  require(/home/eugen/public_html/bitrix/header.php): failed to open stream: No such file or directory in /home/eugen/public_html/blagopar.ru/index.php on line 2
+[14-Nov-2016 15:06:46 Europe/Kiev] PHP Fatal error:  require(): Failed opening required '/home/eugen/public_html/bitrix/header.php' (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/eugen/public_html/blagopar.ru/index.php on line 2

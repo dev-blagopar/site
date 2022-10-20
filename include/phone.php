@@ -1,0 +1,4 @@
+<?/*<!--<h4> <span style="color: #000;" class="ya-phone"><a rel="nofollow" href="tel:#VREGION_TELEFON#">#VREGION_TELEFON#</a></span></h4>--> <!--<h4> <span style="color: #000;" class="ya-phone"><a rel="nofollow" href="tel:+74954111115">+7 (495) 411-11-15</a></span></h4>
+<span style="color: #000000;"> </span>--> <!--<h4> <span style="color: #000;" class="ya-phone"><a rel="nofollow" href="tel:+7 (495) 790-97-75">+7 (495) 790-97-75</a></span></h4>
+<span style="color: #000000;"> </span> <a rel="nofollow" href="tel:+7 (495) 790-97-75">+7 (495) 790-97-75</a>*/?>
+<a rel="nofollow" href="tel:#VREGION_TELEFON#">#VREGION_TELEFON#</a>

@@ -1,0 +1,3 @@
+<!--<i alt="MasterCard" title="MasterCard" class="mastercard"></i> <i alt="Visa" title="Visa" class="visa"></i> <i alt="Яндекс.Деньги" title="Яндекс.Деньги" class="yandex_money"></i> <i alt="WebMoney" title="WebMoney" class="webmoney"></i> <i alt="Qiwi" title="Qiwi" class="qiwi"></i>
+--> <br>
+ <a href="/bitrix/redirect.php?event1=yandexmarket&event2=&event3=&goto=https%3A//market.yandex.ru/shop/414236/reviews" title="Страница открывается в новом окне" target="_blank"><img alt="yamarket" width="221" src="/upload/images/yandex.market/yamarket.png" height="53"></a><br>

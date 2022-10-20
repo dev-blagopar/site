@@ -1,0 +1,1 @@
+/var/www/eugen_pilomater/data/www/blagopar.ru/bitrix/modules/sale/install/components/bitrix/sale.personal.order/templates/.default/bitrix//var/www/eugen_pilomater/data/www/blagopar.ru/bitrix/components/bitrix/sale.personal.order/templates/.default/bitrix/

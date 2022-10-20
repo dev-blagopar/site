@@ -1,0 +1,7 @@
+<?php if(5 > 10) { ?>
+<span class="phone_text"> <a rel="nofollow" href="tel:+7 (495) 790-97-75" class="ya-phone">+7 (495) 790-97-75</a></span>
+<!--<span class="phone_text"> <a rel="nofollow" href="tel:+7 (495) 411-11-15" class="ya-phone">+7 (495) 411-11-15</a></span><a rel="nofollow" href="tel:+7 (495) 118-27-25" class="ya-phone">--><!--<span class="phone_text"> <a rel="nofollow" href="tel:#VREGION_TELEFON#" class="ya-phone">#VREGION_TELEFON#</a> </span>--></a><br>
+ <span class="work_text">Пн-Вс: 09:00 - 19:00<br>
+ </span>
+<?php } ?>
+<span onclick="location.href='/company/kontakty/';" class="mob-h-call mob-h-cont3">Контакты</span>

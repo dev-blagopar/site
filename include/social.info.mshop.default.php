@@ -1,0 +1,31 @@
+<?$APPLICATION->IncludeComponent(
+	"aspro:social.info.mshop", 
+	".default", 
+	array(
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "86400",
+		"CACHE_GROUPS" => "N",
+		"COMPONENT_TEMPLATE" => ".default",
+		"VK" => "http://vk.com/blagopar_rf_group",
+		"ODN" => "https://ok.ru/group/53998907490483",
+		"FACE" => "",
+		"TWIT" => "",
+		"MAIL" => "",
+		"INST" => "",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"GOOGLEPLUS" => "",
+		"YOUTUBE" => "https://www.youtube.com/channel/UCiryI1V114RvvS88aSmXUPQ",
+		"TELEGRAM" => "https://t.me/Blagopar",
+		"VIBER" => "",
+		"WHATSAPP" => "",
+		"SKYPE" => "",
+		"TIKTOK" => "",
+		"PINTEREST" => "",
+		"YANDEXZEN" => "",
+		"SNAPCHAT" => "",
+		"LINKEDIN" => "",
+		"ORDER_SOC" => "vk,odn,fb,tw,inst,mail,youtube,google_plus,telegram,viber,whatsapp,skype,tiktok,pinterest,yandexzen,snapchat,linkedin"
+	),
+	false
+);?> 

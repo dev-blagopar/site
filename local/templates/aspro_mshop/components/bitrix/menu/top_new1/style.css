@@ -1,0 +1,209 @@
+.menu .catalog a i,
+.menu .discount a i {
+	background-position: unset;
+    background: unset;
+    position: relative;
+    top: 0;
+    margin-right: 10px;
+}
+
+.menu .catalog a .svg-inline-icon_catalog,
+.menu .discount a .svg-inline-icon_discount {
+	opacity: 0.5;
+}
+
+.svg-inline-right {
+	background-position: unset !important;
+    background: unset !important;
+    position: absolute !important;
+    right: 20px;
+	top: unset !important;
+}
+
+.menu .catalog svg path,
+.menu .discount svg path,
+.svg-inline-right svg path {
+	fill: #fff;
+}
+
+.has-childs_item:hover {
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, .5); /* fallback for IE */
+  box-shadow: 0 0 0 200vmax rgba(0, 0, 0, .5);
+  z-index: 900;
+}
+
+#header .middle-h-row {
+  z-index: unset;
+}
+
+.basket_normal .popup {
+  z-index: 999 !important;
+}
+
+
+
+.navigation__menu {
+  overflow: visible !important;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left !important;
+  font-size: 14px !important;
+  justify-content: center;
+}
+
+.navigation__menu,
+.navigation__submenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navigation__menu-link {
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+  padding: 19.2px;
+  color: #aaa;
+  transition: .2s color, .2s background;
+}
+
+.navigation__menu-item {
+	position: relative !important;
+	display: block !important;
+	white-space: initial !important;
+}
+
+.navigation__menu-item:hover > a,
+.navigation__menu-link:hover {
+  background: #444;
+  color: #fff;
+}
+
+.navigation__submenu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 224px;
+	max-width: 300px;
+	background: #333;
+	visibility: hidden;
+	opacity: 0;
+	transition: .3s opacity, visibility .3s;
+	pointer-events: none;
+	max-height: 620px;
+	height: auto;
+	overflow: hidden auto;
+}
+
+.catalog .navigation__submenu {
+	width: 224px;
+	max-width: 224px;
+}
+
+.navigation__submenu-d2 {
+	left: 148%;
+	width: 100rem !important;
+	max-width: 854px !important;
+	max-height: 620px;
+	height: 620px;
+	overflow: hidden auto;
+}
+
+
+.navigation__submenu-default {
+	left: 224px;
+    max-width: 854px;
+    max-height: 620px;
+    height: auto;
+    overflow: hidden auto;
+
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+
+/* SCROLLBAR */
+/* width */
+.navigation__submenu::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* button */
+.navigation__submenu::-webkit-scrollbar-button {
+    background: rgb(0,0,0,0); 
+	display: none;
+}
+
+/* Handle */
+.navigation__submenu::-webkit-scrollbar-thumb {
+    background: #b8b8b8;
+	border-radius: 3px;
+}
+
+/* Handle on hover */
+.navigation__submenu::-webkit-scrollbar-thumb:hover {
+    background: #E5E5E5; 
+}
+
+/* Track */
+.navigation__submenu::-webkit-scrollbar-track {
+    background: #666; 
+}
+
+/* The track NOT covered by the handle.*/
+.navigation__submenu::-webkit-scrollbar-track-piece {
+    background: #666; 
+}
+
+/* Corner */
+.navigation__submenu::-webkit-scrollbar-corner {
+    background: #999; 
+}
+
+/* Resizer */
+.navigation__submenu::-webkit-resizer {
+    background: #111; 
+}
+
+
+
+.navigation__submenu .navigation__submenu {
+  top: 0;
+  left: 100%;
+}
+
+.navigation__menu-item:hover > .navigation__submenu:not(.navigation__submenu-default) {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.navigation__submenu-default--active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hidden-catalog {
+	display: none !important;
+}
+
+.active-catalog {
+	display: inline-block !important;
+	max-width: 210px;
+    width: 100%;
+}
+
+.active-catalog .navigation__menu-link  {
+	text-align: center;
+}
+
+.catalog-menu_link-text {
+	display: block;
+}
+
+.active-catalog .catalog-menu_link-text {
+	text-align: center;
+}
