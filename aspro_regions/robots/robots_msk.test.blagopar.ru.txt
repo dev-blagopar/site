@@ -44,6 +44,6 @@ Disallow: /*&bxajaxid=
 Disallow: /*?view_result=
 Disallow: /*&view_result=
 Disallow: /*?oid=*
-Host: msk.test.blagopar.ru
+Host: https://msk.test.blagopar.ru
 Sitemap: https://msk.test.blagopar.ru/sitemap.xml
 Sitemap: https://msk.test.blagopar.ru/sitemap.xml

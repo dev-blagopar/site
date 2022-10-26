@@ -1,1 +1,1 @@
-info@test.blagopar.ru
+<u style="color: #888888;"><a href="mailto:info@blagopar.ru">info@blagopar.ru</a></u>

@@ -44,6 +44,6 @@ Disallow: /*&bxajaxid=
 Disallow: /*?view_result=
 Disallow: /*&view_result=
 Disallow: /*?oid=*
-Host: test.blagopar.ru
+Host: https://test.blagopar.ru
 Sitemap: https://test.blagopar.ru/sitemap.xml
 Sitemap: https://test.blagopar.ru/sitemap.xml
