@@ -8,7 +8,7 @@
 	"front_sections_only", 
 	array(
 		"IBLOCK_TYPE" => "aspro_max_catalog",
-		"IBLOCK_ID" => "151",
+		"IBLOCK_ID" => "14",
 		"FILTER_NAME" => "arrPopularSections",
 		"COMPONENT_TEMPLATE" => "front_sections_only",
 		"SECTION_ID" => "",
