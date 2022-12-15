@@ -12,24 +12,6 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<?$APPLICATION->IncludeComponent(
-	"vregions:variable_sub",
-	"contacts_where",
-	Array(
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO",
-		"SVOYSTVO_INFOBLOKA" => "WHERE"
-	)
-);?>
-<?$APPLICATION->IncludeComponent(
-	"vregions:variable_sub",
-	"contacts_where",
-	Array(
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO",
-		"SVOYSTVO_INFOBLOKA" => "TELEFON"
-	)
-);?>
 <div class="news-list">
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?><br />

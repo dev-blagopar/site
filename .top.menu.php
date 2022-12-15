@@ -1,46 +1,60 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О компании", 
-		"/company/", 
+		"Каталог",
+		"/catalog/",
+		Array(), 
+		Array("NOT_VISIBLE"=>"Y", "CLASS"=>"catalog wide_menu ", "ICON"=>"icon_catalog"),
+		""
+	),
+	Array(
+		"Услуги",
+		"/services/",
+		Array(),
+		Array(),
+		"" 
+	),
+	Array(
+		"Наши работы",
+		"/works/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Услуги", 
-		"/services/", 
+		"Блог",
+		"/company/news/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Как купить", 
-		"/help/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Производители", 
+		"Бренды",
 		"/info/brands/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Магазины", 
-		"/contacts/stores/", 
+		"Как купить",
+		"/help/payment/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Компания",
+		"/company/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Контакты", 
-		"/contacts/", 
+		"/contacts/",
 		Array(), 
 		Array(), 
 		"" 
-	),
+	)
 );
 ?>
