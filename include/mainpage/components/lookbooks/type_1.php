@@ -26,6 +26,7 @@
 		),
 		"PRICE_CODE" => array(
 			0 => "BASE",
+			1 => "Розница ООО Благопар",
 		),
 		"CHECK_DATES" => "Y",
 		"DETAIL_URL" => "",
@@ -67,8 +68,8 @@
 		"SET_LAST_MODIFIED" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"STRICT_SECTION_CHECK" => "N",
-		"TITLE_BLOCK" => "Образы",
-		"TITLE_BLOCK_ALL" => "Все образы",
+		"TITLE_BLOCK" => "Проекты",
+		"TITLE_BLOCK_ALL" => "Все проекты",
 		"SHOW_ADD_REVIEW" => "Y",
 		"ALL_URL" => "lookbooks/",
 		"PAGER_BASE_LINK_ENABLE" => "N",

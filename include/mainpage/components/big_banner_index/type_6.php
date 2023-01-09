@@ -30,6 +30,19 @@
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
 		"BANNER_TYPE_THEME" => "TOP",
+		"COMPONENT_TEMPLATE" => "top_big_banner_2",
+		"BANNER_TYPE_THEME_CHILD" => "",
+		"SECTION_ID" => "",
+		"SHOW_MEASURE" => "Y",
+		"PRICE_CODE" => array(
+		),
+		"STORES" => array(
+			0 => "",
+			1 => "",
+		),
+		"CONVERT_CURRENCY" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
 	),
 	false
 );?>

@@ -113,6 +113,16 @@
 									</a>
 								<?endif;?>
 							</div>
+                            <?php if ($newPrice = $arItem['DISPLAY_PROPERTIES']['NEW_PRICE']['VALUE']): ?>
+                                <div class="discount__element">
+                                    <div class="price__block">
+                                        <div class="price">от&nbsp;<?=$newPrice?>&nbsp;руб.</div>
+                                        <?php if ($oldPrice = $arItem['DISPLAY_PROPERTIES']['OLD_PRICE']['VALUE']): ?>
+                                            <div class="price-old"><span class="underline"><?=$oldPrice?></span>&nbsp;руб.</div>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
 
 						</div>
 						<?if($arItem['DISPLAY_PROPERTIES']['SALE_NUMBER']['VALUE'] || $bDiscountCounter):?>

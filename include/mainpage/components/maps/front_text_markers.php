@@ -2,7 +2,9 @@
 {
 	define("STATISTIC_SKIP_ACTIVITY_CHECK", "true");
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-}?>
+}
+global $arRegionality;
+?>\
 <?$APPLICATION->IncludeComponent(
 	"aspro:wrapper.block.max",
 	"front_map2",
@@ -23,7 +25,7 @@
 		"ELEMENT_SORT_FIELD2" => "id",
 		"ELEMENT_SORT_ORDER" => "asc",
 		"ELEMENT_SORT_ORDER2" => "desc",
-		"FILTER_NAME" => "arRegionality",
+		"FILTER_NAME" => "arRegionLink",
 		"FILTER_PROP_CODE" => "",
 		"HIDE_NOT_AVAILABLE" => "N",
 		"IBLOCK_TYPE" => "aspro_max_content",

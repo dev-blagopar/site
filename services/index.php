@@ -155,7 +155,7 @@ $APPLICATION->SetTitle("Услуги");
 		"STRICT_SECTION_CHECK" => "N",
 		"TIZERS_IBLOCK_ID" => "135",
 		"LANDING_IBLOCK_ID" => "158",
-		"LANDING_SECTION_COUNT" => "10",
+		"LANDING_SECTION_COUNT" => "20",
 		"LANDING_TITLE" => "Популярные категории",
 		"LIST_VIEW" => "slider",
 		"LINKED_ELEMENST_PAGE_COUNT" => "20",

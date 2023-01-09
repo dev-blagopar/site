@@ -1,7 +1,7 @@
 <?
-$sSectionName = "Образы";
+$sSectionName = "Проекты";
 $arDirProperties = Array(
-   "title" => "Образы",
+   "title" => "Проекты",
    "HIDE_LEFT_BLOCK" => "Y",
    "HIDE_LEFT_BLOCK_DETAIL" => "N"
 );
