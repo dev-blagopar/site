@@ -7,7 +7,7 @@
 /company/
 test.php
 robots.txt
-maillog.txt
+*.txt
 *.zip
 *.gzip
 *.gz
