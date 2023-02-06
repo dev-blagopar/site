@@ -51,13 +51,10 @@ if(isset($_GET['iblock_id']) && $_GET['iblock_id'])
 
 				$('.fast_view_frame').removeClass('loading_block');
 
-				initCountdown();
 				setBasketStatusBtn();
-				// InitFlexSlider();
 				InitZoomPict($('#fast_view_item .zoom_picture'));
 
 				InitLazyLoad();
-				// InitOwlSlider();
 				BX.loadScript(arAsproOptions.SITE_TEMPLATE_PATH + '/js/jquery.fancybox.min.js', function(event){
 					BX.loadCSS(arAsproOptions.SITE_TEMPLATE_PATH + '/css/jquery.fancybox.min.css');
 					InitFancyBox();
@@ -77,8 +74,6 @@ if(isset($_GET['iblock_id']) && $_GET['iblock_id'])
 					showTotalSummItem('Y');
 				}, 100);
 
-				InitScrollBar($('.fastview-product__info'));
-
 				$('.popup .animate-load').click(function(){
 					if(!jQuery.browser.mobile)
 						$(this).parent().addClass('loadings');
@@ -87,8 +82,6 @@ if(isset($_GET['iblock_id']) && $_GET['iblock_id'])
 				$('#fast_view_item .counter_block input[type=text]').numeric({allow:"."});
 
 				$('.navigation-wrapper-fast-view .fast-view-nav').removeClass('noAjax');
-
-				$(window).scroll();
 			}
 		})
 		$(document).on('click', '.jqmClose', function(e){

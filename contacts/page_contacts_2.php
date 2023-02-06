@@ -70,7 +70,8 @@
 			7 => "VIDEO",
 			8 => "PHOTOS",
 			9 => "DOCUMENTS",
-			10 => "",
+			10 => "MORE_PHOTOS",
+			11 => "",
 		),
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
@@ -147,6 +148,8 @@
 		"SHOW_ASK_QUESTION_BLOCK" => "Y",
 		"STRICT_SECTION_CHECK" => "N",
 		"SHOW_TOP_MAP" => "N",
+		"GOOGLE_API_KEY" => "",
+		"MAP_TYPE" => "0",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",

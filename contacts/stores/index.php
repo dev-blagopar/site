@@ -140,6 +140,7 @@ $APPLICATION->SetTitle("Магазины");
 		"GOOGLE_API_KEY" => "",
 		"COMPOSITE_FRAME_MODE" => "A",
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"SHOW_TOP_MAP" => "N",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",

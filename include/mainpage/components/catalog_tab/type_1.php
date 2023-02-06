@@ -3,12 +3,9 @@
 	define("STATISTIC_SKIP_ACTIVITY_CHECK", "true");
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 }?>
-<?$APPLICATION->IncludeComponent(
-	"aspro:tabs.max", 
-	"main", 
-	array(
-		"IBLOCK_TYPE" => "aspro_max_catalog",
-		"IBLOCK_ID" => "151",
+<?$APPLICATION->IncludeComponent("aspro:tabs.max", "main", array(
+	"IBLOCK_TYPE" => "aspro_mshop_catalog",
+		"IBLOCK_ID" => "14",
 		"SECTION_ID" => "",
 		"SECTION_CODE" => "",
 		"TABS_CODE" => "HIT",
@@ -72,8 +69,7 @@
 		"SHOW_ONE_CLICK_BUY" => "Y",
 		"SHOW_PRICE_COUNT" => "1",
 		"PRICE_VAT_INCLUDE" => "Y",
-		"PRODUCT_PROPERTIES" => array(
-		),
+		"PRODUCT_PROPERTIES" => "",
 		"USE_PRODUCT_QUANTITY" => "N",
 		"CONVERT_CURRENCY" => "N",
 		"DISPLAY_TOP_PAGER" => "N",
@@ -95,23 +91,14 @@
 			0 => "ID",
 			1 => "",
 		),
-		"OFFERS_PROPERTY_CODE" => array(
-			0 => "ARTICLE",
-			1 => "SIZES",
-			2 => "AGE",
-			3 => "",
-		),
-		"OFFER_TREE_PROPS" => array(
-			0 => "SIZES",
-			1 => "",
-		),
+		
+		
 		"OFFERS_SORT_FIELD" => "sort",
 		"OFFERS_SORT_ORDER" => "asc",
 		"OFFERS_SORT_FIELD2" => "id",
 		"OFFERS_SORT_ORDER2" => "desc",
 		"SHOW_MEASURE" => "Y",
-		"OFFERS_CART_PROPERTIES" => array(
-		),
+		"OFFERS_CART_PROPERTIES" => "",
 		"DISPLAY_WISH_BUTTONS" => "Y",
 		"SHOW_DISCOUNT_PERCENT" => "Y",
 		"SHOW_OLD_PRICE" => "Y",
@@ -133,13 +120,24 @@
 		"SHOW_DISCOUNT_TIME_EACH_SKU" => "Y",
 		"TITLE_BLOCK" => "Лучшие предложения",
 		"TITLE_BLOCK_ALL" => "Весь каталог",
-		"ALL_URL" => "catalog/",
+		"ALL_URL" => "/catalog/",
 		"COMPOSITE_FRAME_MODE" => "A",
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
 		"PARTIAL_PRODUCT_PROPERTIES" => "N",
 		"ADD_PICT_PROP_OFFER" => "MORE_PHOTO",
 		"ID_FOR_TABS" => "Y",
+		"USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"FIELDS" => array(
+			0 => "",
+			1 => "",
+		)
 	),
-	false
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
 );?>

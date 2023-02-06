@@ -1,0 +1,83 @@
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+
+
+.articles-list .left-data a {
+	max-width: 347px;
+    min-width: 347px;
+    height: 200px;
+}
+
+.articles-list .left-data img {
+	min-height: 200px;
+    min-width: 347px;
+    object-fit: cover;
+}
+
+
+
+#map{
+	margin-top: 50px;
+}
+
+.works_map_header {
+	text-align: center;
+}
+
+.map_balloon {}
+
+.sort_header {
+	height: 29px;
+	position: relative;
+	zoom: 1;
+	/*margin:0px 0px 20px;*/
+}
+
+.sort_header.view_block {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.sort_header .sort_display {
+	float: right;
+	font-size: 0;
+}
+
+.sort_header .sort_filter {
+	float: left;
+}
+
+.sort_header .sort_filter a {
+	display: inline-block;
+	text-decoration: none;
+	color: #a5a3a3;
+	margin: 0px 20px 0px 0px;
+}
+
+.sort_header .sort_filter a:last-child {
+	margin-right: 0px;
+}
+
+.sort_header .sort_filter a .icon {
+	content: "";
+	display: none;
+	background: url('/local/templates/aspro_mshop/images/sort_icons.png') -42px 3px no-repeat;
+	width: 15px;
+	height: 13px;
+	vertical-align: top;
+	margin: 0px 3px 0px 0px;
+}
+
+.price.services .price_new {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 14px;
+	color: #1d2029;
+	margin-top: 15px;
+}

@@ -1,6 +1,7 @@
 <?
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
-
+//$asproParams = Aspro\Max\SearchTitle::getConfig();
+//unset($asproParams['CHECK_DATES']);
 $arParams = array_merge(
 	[
 		"CATEGORY_OTHERS_TITLE" => "OTHER",
@@ -17,7 +18,7 @@ $arParams = array_merge(
 		"SHOW_PREVIEW" => "Y",
 		"SHOW_INPUT_FIXED" => "Y",
 		"PRICE_CODE" => array(
-			0 => "BASE",
+			0 => "Розница ООО Благопар",
 		),
 		"PRICE_VAT_INCLUDE" => "Y",
 		"CONVERT_CURRENCY" => "N",
@@ -25,7 +26,7 @@ $arParams = array_merge(
 		"NUM_CATEGORIES" => "1",
 		"COMPONENT_TEMPLATE" => "corp"
 	],
-	Aspro\Max\SearchTitle::getConfig()
+    Aspro\Max\SearchTitle::getConfig(),
 );
 ?>
 <?$APPLICATION->IncludeComponent(

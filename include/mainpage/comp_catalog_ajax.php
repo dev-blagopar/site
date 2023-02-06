@@ -51,8 +51,6 @@ if($bAjaxMode)
 	}
 
 	?>
-	<?\Aspro\Functions\CAsproMax::replacePropsParams($arComponentParams);?>
-	<?$arComponentParams["OFFERS_PROPERTY_CODE"] = $arComponentParams['DETAIL_OFFERS_PROPERTY_CODE'];?>
 	
 	<?$APPLICATION->IncludeComponent(
 		"bitrix:catalog.section",

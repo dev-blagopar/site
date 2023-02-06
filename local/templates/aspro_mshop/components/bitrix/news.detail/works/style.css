@@ -9,6 +9,10 @@
 }
 
 .item_slider .slides {
+    max-width: 1024px !important;
+}
+
+.item_slider .slides {
 	height: 500px !important;
 }
 

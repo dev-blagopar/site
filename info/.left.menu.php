@@ -29,22 +29,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Реквизиты", 
-		"#", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"Политика", 
 		"/include/licenses_detail.php", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Возможности", 
-		"/info/more/", 
 		Array(), 
 		Array(), 
 		"" 

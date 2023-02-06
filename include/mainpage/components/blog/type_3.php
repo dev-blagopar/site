@@ -1,10 +1,7 @@
 <?if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
-<?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
-	"front_news", 
-	array(
-		"IBLOCK_TYPE" => "aspro_max_content",
-		"IBLOCK_ID" => CMaxCache::$arIBlocks[SITE_ID]['aspro_max_content']['aspro_max_articles'][0],
+<?$APPLICATION->IncludeComponent("bitrix:news.list", "front_news", array(
+	"IBLOCK_TYPE" => "aspro_max_content",
+		"IBLOCK_ID" => CMaxCache::$arIBlocks[SITE_ID]["aspro_max_content"]["aspro_max_articles"][0],
 		"NEWS_COUNT" => "5",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_ORDER1" => "DESC",
@@ -71,10 +68,13 @@
 		"TITLE_SUBSCRIBE" => "Подписаться",
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"SHOW_404" => "N",
-		"MOBILE_TEMPLATE" => $GLOBALS['arTheme']['MOBILE_BLOG']['VALUE'],
-		"CHECK_REQUEST_BLOCK" => CMax::checkRequestBlock('blog'),
+		"MOBILE_TEMPLATE" => $GLOBALS["arTheme"]["MOBILE_BLOG"]["VALUE"],
+		"CHECK_REQUEST_BLOCK" => CMax::checkRequestBlock("blog"),
 		"IS_AJAX" => CMax::checkAjaxRequest(),
 		"MESSAGE_404" => ""
 	),
-	false
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
 );?>

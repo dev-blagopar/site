@@ -12,13 +12,13 @@ if($arRegion)
 			$arParams['STORES'] = $arRegion['LIST_STORES'];
 	}
 
-	if($catalogID = \Bitrix\Main\Config\Option::get("aspro.max", "CATALOG_IBLOCK_ID", \Bitrix\Main\Config\Option::get("aspro.max", "CATALOG_IBLOCK_ID", '151')))
+	if($catalogID = \Bitrix\Main\Config\Option::get("aspro.max", "CATALOG_IBLOCK_ID", \Bitrix\Main\Config\Option::get("aspro.max", "CATALOG_IBLOCK_ID", '14')))
 	{
 		$GLOBALS['arrProductsFilter']['IBLOCK_ID'] = $catalogID;
 		if(($arParams["FILTER_NAME"] == 'arRegionLink' || CMax::GetFrontParametrValue('REGIONALITY_FILTER_CATALOG') == 'Y') && CMax::GetFrontParametrValue('REGIONALITY_FILTER_ITEM') == 'Y'){
-			$GLOBALS['arrProductsFilter']['PROPERTY_LINK_REGION'] = $arRegion['ID'];
-			CMax::makeElementFilterInRegion($GLOBALS['arrProductsFilter']);
-		}
+				$GLOBALS['arrProductsFilter']['PROPERTY_LINK_REGION'] = $arRegion['ID'];
+				CMax::makeElementFilterInRegion($GLOBALS['arrProductsFilter']);
+			}
 	}
 }
 ?>
@@ -29,7 +29,7 @@ if($arRegion)
 	"catalog_block",
 	array(
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
-		"IBLOCK_ID" => \Bitrix\Main\Config\Option::get("aspro.max", "CATALOG_IBLOCK_ID", '151'),
+		"IBLOCK_ID" => \Bitrix\Main\Config\Option::get("aspro.max", "CATALOG_IBLOCK_ID", '14'),
 		"PAGE_ELEMENT_COUNT" => ($arParams["DISPLAY_ELEMENT_SLIDER"] ? $arParams["DISPLAY_ELEMENT_SLIDER"] : 10),
 		"SORT_BY1" => "SORT",
 		"SORT_ORDER1" => "ASC",
@@ -54,14 +54,14 @@ if($arRegion)
 		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"PRODUCT_PROPS_VARIABLE" => "prop",
 		"SECTION_ID_VARIABLE" => "SECTION_ID",
-		"SECTION_ID" => "",
+		"SECTION_ID" =>  $arParams['USE_BIG_DATA'] === "Y" ?  $arParams['SECTION_ID_FOR_BIG_DATA'] : "",
 		"SECTION_CODE" => "",
 		"SHOW_BIG_BLOCK" => "N",
 		"DISPLAY_TOP_PAGER" => "N",
 		"DISPLAY_BOTTOM_PAGER" => ($arParams["DISPLAY_LINKED_PAGER"] ? $arParams["DISPLAY_LINKED_PAGER"] : "N"),
 		"CACHE_TYPE" => $arParams['CACHE_TYPE'],
 		"CACHE_TIME" => "3600000",
-		"CACHE_GROUPS" => isset($arParams['CACHE_GROUPS']) ? $arParams['CACHE_GROUPS'] : 'N',
+		"CACHE_GROUPS" => ($arParams["CACHE_GROUPS"] ? $arParams["CACHE_GROUPS"] : "N"),
 		"CACHE_FILTER" => "Y",
 		"DISPLAY_COMPARE" => CMax::GetFrontParametrValue('CATALOG_COMPARE'),
 		"USE_FAST_VIEW" => CMax::GetFrontParametrValue('USE_FAST_VIEW_PAGE_DETAIL'),
@@ -89,7 +89,7 @@ if($arRegion)
 		"OFFERS_FIELD_CODE" => array(
 			0 => "ID",
 			1 => "NAME",
-			2 => "",
+			2 => "DETAIL_PAGE_URL",
 		),
 		"OFFERS_PROPERTY_CODE" => $arParams['OFFERS_PROPERTY_CODE'],
 		"OFFER_TREE_PROPS" => $arParams['OFFER_TREE_PROPS'],
@@ -103,6 +103,13 @@ if($arRegion)
 		"ELEMENT_SORT_FIELD2" => ($arParams["LINKED_ELEMENT_TAB_SORT_FIELD2"] ? $arParams["LINKED_ELEMENT_TAB_SORT_FIELD2"] : "ID"),
 		"ELEMENT_SORT_ORDER2" => ($arParams["LINKED_ELEMENT_TAB_SORT_ORDER2"] ? $arParams["LINKED_ELEMENT_TAB_SORT_ORDER2"] : "DESC"),
 		"SEF_MODE" => "N",
+		"USE_BIG_DATA" => $arParams['USE_BIG_DATA'],
+		"RCM_PROD_ID" => $arParams['RCM_PROD_ID'],
+		"PRODUCT_ROW_VARIANTS" => $arParams['PRODUCT_ROW_VARIANTS'],
+		"SHOW_FROM_SECTION" => $arParams['SHOW_FROM_SECTION'],
+		"RCM_TYPE" => $arParams['RCM_TYPE'],
+		"FILTER_HIT_PROP" => $arParams['FILTER_HIT_PROP'] ?? 'block',
+		"BIGDATA_COUNT_BOTTOM" => $arParams["BIGDATA_COUNT_BOTTOM"],
 		"SHOW_MEASURE" => $arParams["SHOW_MEASURE"],
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
 		"PARTIAL_PRODUCT_PROPERTIES" => "N",
@@ -119,9 +126,11 @@ if($arRegion)
 		"STIKERS_PROP" => $arParams["STIKERS_PROP"],
 		"SHOW_RATING" => $arParams["SHOW_RATING"],
 		"ADD_PICT_PROP" => $arParams["ADD_PICT_PROP"],
+		"DISPLAY_WISH_BUTTONS" => $arParams["DISPLAY_WISH_BUTTONS"],
 		"DISPLAY_WISH_BUTTONS" => CMax::GetFrontParametrValue('CATALOG_DELAY'),
 		"COMPOSITE_FRAME_MODE" => "A",
 		"REVIEWS_VIEW" => CMax::GetFrontParametrValue('REVIEWS_VIEW') == 'EXTENDED',
+		"SET_SKU_TITLE" => ((CMax::GetFrontParametrValue("TYPE_SKU") == "TYPE_1" && CMax::GetFrontParametrValue("CHANGE_TITLE_ITEM_LIST") == "Y") ? "Y" : ""),
 		"COMPOSITE_FRAME_TYPE" => "AUTO"
 	),
 	false, array("HIDE_ICONS" => "Y")

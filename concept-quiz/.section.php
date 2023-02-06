@@ -1,0 +1,3 @@
+<?
+$sSectionName="concept.quiz";
+?>

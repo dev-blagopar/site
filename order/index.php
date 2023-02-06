@@ -3,8 +3,8 @@ $APPLICATION->SetTitle("Оформление заказа");
 ?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:sale.order.ajax",
-	"v2",
+	"bitrix:sale.order.ajax", 
+	"order", 
 	array(
 		"PAY_FROM_ACCOUNT" => "N",
 		"ONLY_FULL_PAY_FROM_ACCOUNT" => "N",
@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"DISABLE_BASKET_REDIRECT" => "N",
 		"DISPLAY_IMG_WIDTH" => "90",
 		"DISPLAY_IMG_HEIGHT" => "90",
-		"COMPONENT_TEMPLATE" => "v1",
+		"COMPONENT_TEMPLATE" => "order",
 		"ALLOW_NEW_PROFILE" => "Y",
 		"SHOW_PAYMENT_SERVICES_NAMES" => "Y",
 		"COMPATIBLE_MODE" => "Y",
@@ -57,7 +57,6 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"SHOW_MAP_IN_PROPS" => "Y",
 		"SHOW_MAP_FOR_DELIVERIES" => array(
 			0 => "1",
-			1 => "2",
 		),
 		"PROPS_FADE_LIST_1" => array(
 			0 => "1",
@@ -152,7 +151,13 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"MESS_FAIL_PRELOAD_TEXT" => "Вы заказывали в нашем интернет-магазине, поэтому мы заполнили все данные автоматически. Обратите внимание на развернутый блок с информацией о заказе. Здесь вы можете внести необходимые изменения или оставить как есть и нажать кнопку \"#ORDER_BUTTON#\".",
 		"MESS_DELIVERY_CALC_ERROR_TITLE" => "Не удалось рассчитать стоимость доставки.",
 		"MESS_DELIVERY_CALC_ERROR_TEXT" => "Вы можете продолжить оформление заказа, а чуть позже менеджер магазина свяжется с вами и уточнит информацию по доставке.",
-		"MESS_PAY_SYSTEM_PAYABLE_ERROR" => "Вы сможете оплатить заказ после того, как менеджер проверит наличие полного комплекта товаров на складе. Сразу после проверки вы получите письмо с инструкциями по оплате. Оплатить заказ можно будет в персональном разделе сайта."
+		"MESS_PAY_SYSTEM_PAYABLE_ERROR" => "Вы сможете оплатить заказ после того, как менеджер проверит наличие полного комплекта товаров на складе. Сразу после проверки вы получите письмо с инструкциями по оплате. Оплатить заказ можно будет в персональном разделе сайта.",
+		"ADDITIONAL_PICT_PROP_43" => "-",
+		"ADDITIONAL_PICT_PROP_55" => "-",
+		"ADDITIONAL_PICT_PROP_56" => "-",
+		"ADDITIONAL_PICT_PROP_147" => "-",
+		"ADDITIONAL_PICT_PROP_151" => "-",
+		"ADDITIONAL_PICT_PROP_153" => "-"
 	),
 	false
 );?>

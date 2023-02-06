@@ -8,7 +8,7 @@
 	"front_sections_only", 
 	array(
 		"IBLOCK_TYPE" => "aspro_max_catalog",
-		"IBLOCK_ID" => "151",
+		"IBLOCK_ID" => "14",
 		"FILTER_NAME" => "arrPopularSections",
 		"COMPONENT_TEMPLATE" => "front_sections_only",
 		"SECTION_ID" => "",
@@ -25,7 +25,12 @@
 		"NO_MARGIN" => "Y",
 		"FILLED" => "N",
 		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO"
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"TOP_DEPTH" => "2",
+		"SHOW_ICONS" => "N",
+		"SHOW_SUBSECTIONS" => "N",
+		"SCROLL_SUBSECTIONS" => "N",
+		"INCLUDE_FILE" => ""
 	),
 	false
 );?>

@@ -1,0 +1,184 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("keywords", "контакты благопар, интернет-магазин, заказать, купить, товары для бань, товары для саун");
+$APPLICATION->SetPageProperty("description", "Контакты. Интернет-магазин БлагоПар товары для бань и саун.");
+$APPLICATION->SetTitle("Контакты");
+?><h4 style="text-align: left;"><span style="font-size: 14pt;">Наши магазины в Москве:</span></h4>
+ <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A375c3e8aa8c39c08ff1a04324845c6fc80e1d64daa2728203e0dcd20013e8af3&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe> <br>
+<div id="contacts-row">
+	<div class="contacts-line">
+		<h4>ТЯК «Славянский мир»</h4>
+ <span style="font-size: 12pt;">Время работы: <br>
+ </span><span style="font-size: 12pt;"><br>
+		<ul>
+			<li>&nbsp;<span style="font-size: 12pt;">Пн - Вс: 8:00 до 19:00.</span></li>
+		</ul>
+ </span><b><br>
+ <span itemprop="telephone" style="color: #ee1d24;"> </span></b>
+		<div>
+ <img width="40" alt="номер телефона" src="/upload/medialibrary/6ce/telefon-zel.png" height="39" title="номер телефона" align="left">&nbsp; &nbsp; +7 (495) 790-97-75&nbsp; <br>
+ <br>
+			 &nbsp;
+		</div>
+		<p>
+		</p>
+		<p>
+		</p>
+		<p style="text-align: left;">
+ <img width="40" src="/upload/medialibrary/e11/emeyl-zel.png" height="39" title="емейл" alt="емейл" align="middle">&nbsp; &nbsp;<span style="text-align: justify;">E-mail:</span><a href="mailto:sm@blagopar.ru" style="text-align: justify;"> <u>sm@blagopar.ru</u></a>
+		</p>
+ <img width="40" src="/upload/medialibrary/350/adres-zel.png" height="39" title="адрес" alt="адрес" align="middle">&nbsp; &nbsp;г. Москва, 41 км МКАД<br>
+ <br>
+		<br>
+	</div>
+	<div class="contacts-line">
+		<h4>ТСК «Тракт-Терминал»</h4>
+ <span style="font-size: 12pt;">Время работы: <br>
+ </span><span style="font-size: 12pt;"><br>
+		<ul>
+			<li>&nbsp;<span style="font-size: 12pt;">Пн - Вс: 9:00 до 19:00.</span></li>
+		</ul>
+ </span><b><br>
+ <span itemprop="telephone" style="color: #ee1d24;"> </span></b>
+		<div>
+ <img width="40" alt="номер телефона" src="/upload/medialibrary/6ce/telefon-zel.png" height="39" title="номер телефона" align="left">&nbsp; &nbsp; +7 (495) 790-97-75&nbsp; <br>
+ <br>
+			 &nbsp;
+		</div>
+		<p>
+		</p>
+		<p>
+		</p>
+		<p style="text-align: left;">
+ <img width="40" src="/upload/medialibrary/e11/emeyl-zel.png" height="39" title="емейл" alt="емейл" align="middle">&nbsp; &nbsp;<span style="text-align: justify;">E-mail:</span><a href="mailto:tt@blagopar.ru" style="text-align: justify;"> <u>tt@blagopar.ru</u></a>
+		</p>
+ <img width="40" src="/upload/medialibrary/350/adres-zel.png" height="39" title="адрес" alt="адрес" align="middle">&nbsp; &nbsp;<span class="address-line">г. Москва, Ярославское ш., 94 км МКАД</span><br>
+ <br>
+		<br>
+	</div>
+	<div class="contacts-line">
+		<h4>ТК «Балтия»</h4>
+ <span style="font-size: 12pt;">Время работы: <br>
+ </span><span style="font-size: 12pt;"><br>
+		<ul>
+			<li>&nbsp;<span style="font-size: 12pt;">Пн - Вс: 8:00 до 19:00.</span></li>
+		</ul>
+ </span><b><br>
+ <span itemprop="telephone" style="color: #ee1d24;"> </span></b>
+		<div>
+ <img width="40" alt="номер телефона" src="/upload/medialibrary/6ce/telefon-zel.png" height="39" title="номер телефона" align="left">&nbsp; &nbsp; +7 (495) 790-97-75&nbsp; <br>
+ <br>
+			 &nbsp;
+		</div>
+		<p>
+		</p>
+		<p>
+		</p>
+		<p style="text-align: left;">
+ <img width="40" src="/upload/medialibrary/e11/emeyl-zel.png" height="39" title="емейл" alt="емейл" align="middle">&nbsp; &nbsp;<span style="text-align: justify;">E-mail:</span><a href="mailto:bt@blagopar.ru" style="text-align: justify;"> <u>bt@blagopar.ru</u></a>
+		</p>
+ <img width="40" src="/upload/medialibrary/350/adres-zel.png" height="39" title="адрес" alt="адрес" align="middle">&nbsp; &nbsp;<span class="address-line">г. Москва, Новорижское ш., 27 км</span><br>
+ <br>
+		<br>
+	</div>
+	<div class="contacts-line">
+		<h4>ТК «Конструктор»</h4>
+ <span style="font-size: 12pt;">Время работы: <br>
+ </span><span style="font-size: 12pt;"><br>
+		<ul>
+			<li>&nbsp;<span style="font-size: 12pt;">Пн - Вс: 9:00 до 21:00.</span></li>
+		</ul>
+ </span><b><br>
+ <span itemprop="telephone" style="color: #ee1d24;"> </span></b>
+		<div>
+ <img width="40" alt="номер телефона" src="/upload/medialibrary/6ce/telefon-zel.png" height="39" title="номер телефона" align="left">&nbsp; &nbsp; +7 (495) 790-97-753&nbsp; <br>
+ <br>
+			 &nbsp;
+		</div>
+		<p>
+		</p>
+		<p>
+		</p>
+		<p style="text-align: left;">
+ <img width="40" src="/upload/medialibrary/e11/emeyl-zel.png" height="39" title="емейл" alt="емейл" align="middle">&nbsp; &nbsp;<span style="text-align: justify;">E-mail:</span><a href="mailto:ks@blagopar.ru" style="text-align: justify;"> <u>ks@blagopar.ru</u></a>
+		</p>
+ <img width="40" src="/upload/medialibrary/350/adres-zel.png" height="39" title="адрес" alt="адрес" align="middle">&nbsp; &nbsp;г. Москва, 25 км МКАД<br>
+ <br>
+	</div>
+	 <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af8c67670f34aeea2edbd8b7338527594541d3c8f5a818b268c248c8eadaca16d&amp;source=constructor" width="100%" height="458" frameborder="0"></iframe> -->
+</div>
+<p>
+</p>
+<p style="text-align: justify;">
+</p>
+<hr>
+<p>
+</p>
+<h4>Оптовый отдел:</h4>
+ <span style="font-size: 11pt;">По вопросам оптовых закупок и поставок.</span><br>
+ <br>
+ <img width="40" alt="номер телефона" src="/upload/medialibrary/6ce/telefon-zel.png" height="39" title="номер телефона" align="middle">&nbsp; +7 909-168-50-00<br>
+ <br>
+ <img width="40" src="/upload/medialibrary/e11/emeyl-zel.png" height="39" title="емейл" alt="емейл" align="middle">&nbsp; E-mail:&nbsp;<u><a href="mailto:89035259888@blagopar.ru">89035259888@blagopar.ru</a><br>
+ </u><br>
+<hr>
+<h4><br>
+ </h4>
+<h4>Служба по контролю за качеством предоставляемых услуг и урегулированию конфликтных ситуаций:</h4>
+ <span style="font-size: 11pt;">Если вы хотите оставить отзыв о нашей работе, жалобу, или любое предложение по улучшению качества наших услуг, обратитесь по указанным контактам. Помогите нам стать лучше для вас!</span><br>
+<h4></h4>
+ <img width="40" alt="номер телефона" src="/upload/medialibrary/6ce/telefon-zel.png" height="39" title="номер телефона" align="middle">&nbsp; &nbsp;8 909 168-50-00 <br>
+ <!-- <br>
+ <img width="40" src="/upload/medialibrary/e11/emeyl-zel.png" height="39" title="емейл" alt="емейл" align="middle">&nbsp; &nbsp;E-mail:&nbsp;<a href="mailto:info@blagopar.ru"><u>info@blagopar.ru</u></a><br> --> <br>
+<hr>
+<h4><br>
+ </h4>
+<h4>Юридическая информация:</h4>
+<div>
+ <img width="40" alt="ооо Благопар" src="/upload/medialibrary/8e7/yurinfo-zel.png" height="39" title="ооо Благопар" align="middle">&nbsp; &nbsp;ООО «БЛАГОПАР»
+</div>
+<div>
+	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ИНН/КПП: 7751044646/775101001
+</div>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ОГРН: 1177746452751<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; К/с: 30101810400000000225<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Р/с: 40702810138000054488, в ПАО СБЕРБАНК<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; БИК 044525225<br>
+ <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Юридический адрес:<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;108811, г. Москва, п. Московский, Киевское шоссе, 22-й км, домовладение 4, строение 2,<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; этаж 5, блог Г, офис 539 Г<br>
+ <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Почтовый адрес:<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;108811, г. Москва п. Московский, Киевское шоссе, 22-й км, домовладение 4, строение 2, этаж 5, блог Г, <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; офис 539 Г (БП «РУМЯНЦЕВО»)&nbsp;<br>
+<div>
+	 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</div>
+ <br>
+ <img width="40" alt="ооо Благопар" src="/upload/medialibrary/8e7/yurinfo-zel.png" height="39" title="ооо Благопар" align="middle">&nbsp; &nbsp;ИП Тесленко Сергей Олегович<br>
+ <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ОГРНИП 315774600426870<br>
+ <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b> </b>Фактический адрес:<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 108811, г.Москва, поселение Московский, 22-ой км. Киевского шоссе, домовладение 4,<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; строение 2, корпус Г, подъезд 18, этаж 5, офис 539 Г<br>
+ <br>
+<hr>
+ &nbsp;<br>
+ &nbsp;<span style="color: #383838; font-size: 16px;">
+<h4>Для соискателей:</h4>
+ </span><span style="color: #383838; font-size: 16px;"><br>
+ </span><span style="font-size: 11pt;">Наша компания постоянно развивается. Полноценное развитие невозможно без увеличения штата сотрудников.</span> <br>
+ Если вы хотите присоединиться к нашей команде увлечённых свои делом людей,&nbsp;оставьте ваши контактные данные <a href="https://blagopar.ru/company/jobs/"><u>здесь</u></a>.<br>
+ <br>
+<p style="text-align: justify;">
+ <span style="color: #000000;"><span style="color: #000000;"><span style="color: #000000;"><b><span style="color: #000000;"><a href="https://blagopar.ru/company/jobs/"></a></span></b></span></span></span>
+</p>
+<p style="text-align: justify;">
+ <span style="color: #000000;"><b><span style="color: #000000;"><span style="color: #000000;"><b><span style="color: #000000;"><a href="https://blagopar.ru/company/jobs/"></a></span></b></span></span></b></span>
+</p>
+<p style="text-align: center;">
+ <span style="color: #000000;"><b><span style="color: #000000;"><span style="color: #000000;"><b><span style="color: #000000;"><a href="https://blagopar.ru/company/jobs/"></a></span></b></span></span></b></span>
+</p>
+ <span style="color: #000000;"><b><span style="color: #000000;"><span style="color: #000000;"><b><span style="color: #000000;"><b><span style="color: #000000;"><b><span style="color: #000000;"><b><span style="color: #ff0000;"><a href="https://blagopar.ru/company/jobs/"></a> </span></b></span></b></span></b></span></b></span></span></b></span><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

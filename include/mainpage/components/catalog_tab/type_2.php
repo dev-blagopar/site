@@ -7,8 +7,8 @@
 	"aspro:tabs.max", 
 	"main", 
 	array(
-		"IBLOCK_TYPE" => "aspro_max_catalog",
-		"IBLOCK_ID" => "151",
+		"IBLOCK_TYPE" => "aspro_mshop_catalog",
+		"IBLOCK_ID" => "14",
 		"SECTION_ID" => "",
 		"SECTION_CODE" => "",
 		"TABS_CODE" => "HIT",
@@ -94,14 +94,8 @@
 			0 => "ID",
 			1 => "",
 		),
-		"OFFERS_PROPERTY_CODE" => array(
-			0 => "SIZES",
-			1 => "ARTICLE",
-			2 => "AGE",
-		),
-		"OFFER_TREE_PROPS" => array(
-			0 => "SIZES",
-		),
+		
+		
 		"OFFERS_SORT_FIELD" => "sort",
 		"OFFERS_SORT_ORDER" => "asc",
 		"OFFERS_SORT_FIELD2" => "id",

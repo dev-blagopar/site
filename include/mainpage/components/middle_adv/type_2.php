@@ -7,7 +7,7 @@
 		"IBLOCK_ID" => "138",
 		"TYPE_BANNERS_IBLOCK_ID" => "126",
 		"SET_BANNER_TYPE_FROM_THEME" => "N",
-		"NEWS_COUNT" => "3",
+		"NEWS_COUNT" => "5",
 		"SORT_BY1" => "SORT",
 		"SORT_ORDER1" => "ASC",
 		"SORT_BY2" => "ID",
@@ -23,7 +23,14 @@
 		"SECTION_ITEM_CODE" => "float_banners_type_1",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
-		"BANNER_TYPE_THEME" => "BANNER_IMG_WIDE"
+		"BANNER_TYPE_THEME" => "BANNER_IMG_WIDE",
+		"COMPONENT_TEMPLATE" => "float_banners",
+		"FILTER_NAME" => "arRegionLink",
+		"SHOW_MEASURE" => "Y",
+		"TYPE_BLOCK" => "type1",
+		"USE_TYPE_BLOCK" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
 	),
 	false
 );?>

@@ -1,12 +1,9 @@
 <?if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
-<?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section.list", 
-	"front_stories", 
-	array(
-		"VIEW_TYPE" => "ROUND",
-		"FRONT_PAGE" => 'Y',
+<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "front_stories", array(
+	"VIEW_TYPE" => "ROUND",
+		"FRONT_PAGE" => "Y",
 		"IBLOCK_TYPE" => "aspro_max_content",
-		"IBLOCK_ID" => '158',
+		"IBLOCK_ID" => "158",
 		"COMPONENT_TEMPLATE" => "front_stories",
 		"SECTION_ID" => "",
 		"SECTION_CODE" => "",
@@ -33,7 +30,10 @@
 		"TITLE_BLOCK" => "Истории",
 		"TITLE_BLOCK_ALL" => "Все истории",
 		"ALL_URL" => "",
-		"TITLE_BLOCK_SHOW" => "N",
+		"TITLE_BLOCK_SHOW" => "N"
 	),
-	false
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
 );?>

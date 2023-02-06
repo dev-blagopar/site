@@ -44,6 +44,6 @@ Disallow: /*&bxajaxid=
 Disallow: /*?view_result=
 Disallow: /*&view_result=
 Disallow: /*?oid=*
-Host: ekb.test.blagopar.ru
+Host: https://ekb.test.blagopar.ru
 Sitemap: https://ekb.test.blagopar.ru/sitemap.xml
 Sitemap: https://ekb.test.blagopar.ru/sitemap.xml
