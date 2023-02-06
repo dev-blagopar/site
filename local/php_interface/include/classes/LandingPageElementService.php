@@ -9,6 +9,10 @@ class LandingPageElementService
 {
     const SHOW_ON_INDEX_PAGE_PROPERTY_VALUE = 51316;
 
+<<<<<<< HEAD
+=======
+    //
+>>>>>>> 93091eb91e6fd2500df967a13852773128dabbe3
     public function processAddingWork(array $fields): bool
     {
         $landingPage = ElementLandingPagesTable::createObject();
@@ -19,6 +23,10 @@ class LandingPageElementService
         $landingPage->setShowOnIndexPage(self::SHOW_ON_INDEX_PAGE_PROPERTY_VALUE);
 
         $result = $landingPage->save();
+<<<<<<< HEAD
         return (bool)$result->getId();
+=======
+        return $result->getId();
+>>>>>>> 93091eb91e6fd2500df967a13852773128dabbe3
     }
 }
