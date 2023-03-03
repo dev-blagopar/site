@@ -20,7 +20,7 @@ $APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", (($arTheme["LEFT_BLOCK_CATALOG_
 <?if(CMax::checkAjaxRequest2()):?>
 	<div>
 <?endif;?>
-<div class="top-content-block"><?$APPLICATION->ShowViewContent('top_content');?><?$APPLICATION->ShowViewContent('top_content2');?></div>
+
 <?if(CMax::checkAjaxRequest2()):?>
 	</div>
 <?endif;?>
