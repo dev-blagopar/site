@@ -144,6 +144,8 @@ if($bHeaderStickyMenu || $bHeaderStickyMenuSm){
 	?>
 <?endif;?>
 
+<div><?$APPLICATION->ShowViewContent('top_content');?></div>
+
 <?if($iSectionsCount && $arParams["HIDE_SUBSECTIONS_LIST"] !== "Y"):?>
 	<?$this->SetViewTarget("top_content");?>
 		<div class="section-block">
