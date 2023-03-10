@@ -40,7 +40,7 @@ $APPLICATION->SetTitle("Магазины");
 		"NEWS_COUNT" => "100",
 		"USE_FILTER" => "Y",
 		"MAP_TYPE" => "0",
-		"FILTER_NAME" => "arRegionality",
+		"FILTER_NAME" => "arRegionLink",
 		"SORT_BY1" => "SORT",
 		"SORT_ORDER1" => "ASC",
 		"SORT_BY2" => "NAME",
@@ -144,7 +144,7 @@ $APPLICATION->SetTitle("Магазины");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
-			"detail" => "#ELEMENT_ID#/",
+			"detail" => "#ELEMENT_CODE#/",
 		)
 	),
 	false

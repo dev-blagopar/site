@@ -1,1 +1,1 @@
-e.gudkova@blagopar.ru
+resume@blagopar.ru

@@ -56,11 +56,10 @@ $APPLICATION->SetTitle("Блог");
 		"DETAIL_ACTIVE_DATE_FORMAT" => "j F Y G:i",
 		"DETAIL_FIELD_CODE" => array(
 			0 => "TAGS",
-			1 => "PREVIEW_TEXT",
-			2 => "DETAIL_TEXT",
-			3 => "DETAIL_PICTURE",
-			4 => "DATE_ACTIVE_FROM",
-			5 => "",
+			1 => "DETAIL_TEXT",
+			2 => "DETAIL_PICTURE",
+			3 => "DATE_ACTIVE_FROM",
+			4 => "",
 		),
 		"DETAIL_PROPERTY_CODE" => array(
 			0 => "LINK_GOODS",
@@ -237,7 +236,7 @@ $APPLICATION->SetTitle("Блог");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "#SECTION_CODE#/",
-			"detail" => "#SECTION_CODE#/#ELEMENT_CODE#/",
+			"detail" => "blog/#ELEMENT_CODE#/",
 			"rss" => "rss/",
 			"rss_section" => "#SECTION_ID#/rss/",
 		)
