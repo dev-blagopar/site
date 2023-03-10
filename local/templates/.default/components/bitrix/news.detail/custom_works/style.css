@@ -8,6 +8,10 @@
     margin-bottom: 60px;
 }
 
+.works_detail_wrapp .detail_picture_block img {
+    height: 85% !important;
+}
+
 @media (max-width: 600px) {
     .item_slider .slides {
         line-height: 250px !important;

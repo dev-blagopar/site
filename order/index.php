@@ -97,7 +97,7 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"SERVICES_IMAGES_SCALING" => "standard",
 		"COMPOSITE_FRAME_MODE" => "A",
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
-		"ALLOW_APPEND_ORDER" => "Y",
+		"ALLOW_APPEND_ORDER" => "N",
 		"SHOW_NOT_CALCULATED_DELIVERIES" => "Y",
 		"SPOT_LOCATION_BY_GEOIP" => "Y",
 		"SHOW_VAT_PRICE" => "Y",
@@ -157,7 +157,8 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"ADDITIONAL_PICT_PROP_56" => "-",
 		"ADDITIONAL_PICT_PROP_147" => "-",
 		"ADDITIONAL_PICT_PROP_151" => "-",
-		"ADDITIONAL_PICT_PROP_153" => "-"
+		"ADDITIONAL_PICT_PROP_153" => "-",
+		"ADDITIONAL_PICT_PROP_160" => "-"
 	),
 	false
 );?>
