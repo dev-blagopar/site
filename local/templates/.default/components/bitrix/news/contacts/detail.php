@@ -132,8 +132,5 @@ $arElement = CMaxCache::CIblockElement_GetList(array("CACHE" => array("TAG" => C
 			</div>
 		<?endif;?>
 	</div>
-	<div class="col-md-6">
-		<a class="back-url  url-block" href="<?=$arResult['FOLDER'].$arResult['URL_TEMPLATES']['news']?>"><i class="fa fa-angle-left"></i><span><?=GetMessage('BACK_LINK')?></span></a>
-	</div>
 </div>
 </div>
