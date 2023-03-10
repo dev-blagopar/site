@@ -147,7 +147,6 @@
 						<ul class="path"><?=$arItem["CHAIN_PATH"]?></ul>
 					<?endif;?>
 					<a href="<?=$arItem["URL"]?>" class="dark_link font_mlg title"><?=$arItem["TITLE_FORMATED"]?></a>
-					<div type="text"><?=$arItem["BODY_FORMATED"]?></div>
 					<a href="<?=$arItem['URL']?>" class="arrow_link colored_theme_hover_bg-el bordered-block rounded3 muted" title="<?=GetMessage('TO_ALL')?>"><?=CMax::showIconSvg("right-arrow", SITE_TEMPLATE_PATH.'/images/svg/arrow_right_list.svg', '', '');?></a>
 					<?if (
 						$arParams["SHOW_RATING"] == "Y"
