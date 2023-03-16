@@ -36,4 +36,40 @@ return array (
     1 => '301',
     2 => '',
   ),
+  '/catalog/materialy_sten_potolka_bani_i_sauny/' => 
+  array (
+    0 => '/catalog/derevo_dlya_bani_i_sauny/',
+    1 => '301',
+    2 => '',
+  ),
+  '/catalog/materialy_dlya_izgotovleniya_lezhakov_i_polok_v_bane_i_saune/' => 
+  array (
+    0 => '/catalog/derevo_dlya_bani_i_sauny/',
+    1 => '301',
+    2 => '',
+  ),
+  '/catalog/panno_iz_mozhzhevelnika_i_lipy_gimalayskaya_sol_plitka_i_elementy_iz_naturalnogo_kamnya/' => 
+  array (
+    0 => '/catalog/panno_dlya_bani/',
+    1 => '301',
+    2 => '',
+  ),
+  '/catalog/aksessuary_i_dekor/' => 
+  array (
+    0 => '/catalog/aksessuary_dlya_bani/',
+    1 => '301',
+    2 => '',
+  ),
+  '/catalog/materialy_dlya_otdelki_pozharoopasnykh_uzlov_v_bane_i_saune/' => 
+  array (
+    0 => '/catalog/zashita_izolyaciya_germetiki_dlya_bani/',
+    1 => '301',
+    2 => '',
+  ),
+  '/catalog/aksessuary_dlya_bani/masla_aromatizatory_i_chashi_kosmeticheskie_sredstva/' => 
+  array (
+    0 => '/catalog/aksessuary_dlya_bani/aromatizatory_i_kosmetika_v_banyu/',
+    1 => '301',
+    2 => '',
+  ),
 );

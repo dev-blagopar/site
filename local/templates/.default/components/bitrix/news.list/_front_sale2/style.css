@@ -207,9 +207,38 @@ body .sales2.lg .info-sticker-block.top{top: 29px;left: 31px;}
 	.item-views.sales2.compact .row.margin0{padding-bottom: 0;}
 	/*.wrapper1:not(.with_left_block) .wrapper_inner.front .drag-block.container .item-views.sales2.sm.compact,
 	.wrapper1:not(.with_left_block) .wrapper_inner.front .drag-block.container .item-views.sales2.sm.compact{padding-bottom: 0}*/
-	
-
-
+}
+.discount__element .price__block{
+	color: white;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+.discount__element .price__block .price-old{
+	color: white;
+	font-size: 16px;
+	position: relative;
+}
+.discount__element .price__block .price-old:before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: .1rem;
+	background-color: #bb0001;
+}
+.discount__element .price__block .price-old .discount{
+	background: #ff8d18;
+	color: white;
+	padding: 3px 5px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.discount__element .price__block .price{
+	font-size: 20px;
+	margin-top: 2px;
 }
 @media (max-width: 400px){
 	/*.item-views.sales2.bg .item-wrapper > .item{padding-top:90%;}*/

@@ -76,7 +76,7 @@
 						<?if (!$bSlider):?>
 							<div class="hidden compact-img lazy" <?=($bImage ? 'data-src="'.$imageSrc.'"' : 'data-src="'.$noImageSrc.'"');?>   style="background-image:url('<?=\Aspro\Functions\CAsproMax::showBlankImg($imageSrc);?>')"></div>
 						<?endif;?>
-						<?if($bDetailLink):?><a href="<?=$arItem['PROPERTIES']['REDIRECT']['VALUE'] ?: $arItem['DETAIL_PAGE_URL']?>"></a><?endif;?>
+                        <?if($bDetailLink):?><a href="<?=$arItem['PROPERTIES']['LINK_REFERENCE']['~VALUE'] ?: $arItem['DETAIL_PAGE_URL']?>"><?endif;?>
 					<?else:?>
 					<div class="item<?=($arParams['FILLED'] == 'Y' ? ' bg-fill-grey' : ($arParams['TRANSPARENT'] == 'Y' ? '' : ' bg-fill-white'));?><?=($arParams['TRANSPARENT'] == 'Y' ? '' : ' box-shadow');?><?=($arParams['TYPE_IMG'] == 'sm' ? ' bordered text-center' : '');?>">
 						<?if($bImage):?>
@@ -113,6 +113,16 @@
 									</a>
 								<?endif;?>
 							</div>
+                            <?php if ($newPrice = $arItem['DISPLAY_PROPERTIES']['NEW_PRICE']['VALUE']): ?>
+                                <div class="discount__element">
+                                    <div class="price__block">
+                                        <div class="price">от&nbsp;<?=$newPrice?>&nbsp;руб.</div>
+                                        <?php if ($oldPrice = $arItem['DISPLAY_PROPERTIES']['OLD_PRICE']['VALUE']): ?>
+                                            <div class="price-old"><span class="underline"><?=$oldPrice?></span>&nbsp;руб.</div>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
 
 						</div>
 						<?if($arItem['DISPLAY_PROPERTIES']['SALE_NUMBER']['VALUE'] || $bDiscountCounter):?>

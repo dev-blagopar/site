@@ -509,7 +509,7 @@ $APPLICATION->IncludeComponent(
 		"USE_ALSO_BUY" => "Y",
 		"ALSO_BUY_ELEMENT_COUNT" => "5",
 		"ALSO_BUY_MIN_BUYES" => "1",
-		"USE_STORE" => "N",
+		"USE_STORE" => "Y",
 		"USE_STORE_PHONE" => "Y",
 		"USE_STORE_SCHEDULE" => "Y",
 		"USE_MIN_AMOUNT" => "N",
