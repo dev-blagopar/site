@@ -168,18 +168,16 @@ function rsOnAddOrder(Event $event) {
         ),
     );
     file_get_contents("https://cloud.roistat.com/api/proxy/1.0/leads/add?" . http_build_query($roistatData));
+
 }
 
 //roistat end
 
 function modifyNewOrderEmailFields($orderID, &$eventName, &$arFields)
 {
-    \Bitrix\Main\Diag\Debug::writeToFile(123, 'modifyNewOrderEmailFields', "/local/test/modifyNewOrderEmailFields_logs.log");
     $order = Order::load($orderID);
     $properties = $order->getPropertyCollection();
-    \Bitrix\Main\Diag\Debug::writeToFile(123, '123', "/local/test/modifyNewOrderEmailFields_logs.log");
-    \Bitrix\Main\Diag\Debug::writeToFile($orderID, '$orderID', "/local/test/modifyNewOrderEmailFields_logs.log");
-    \Bitrix\Main\Diag\Debug::writeToFile($eventName, '$eventName', "/local/test/modifyNewOrderEmailFields_logs.log");
+
     // Детали заказа
     $arFields['ORDER_DETAIL_TABLE'] = '<table style="background: #FFFFFF; border-collapse: collapse; width: 100%;">';
 
@@ -295,7 +293,7 @@ function modifyNewOrderEmailFields($orderID, &$eventName, &$arFields)
         } else if ($product['DETAIL_PICTURE']) {
             $photo = CFile::GetPath($product['DETAIL_PICTURE']);
         }
-        \Bitrix\Main\Diag\Debug::writeToFile($arFields, '$arFields', "/local/test/modifyNewOrderEmailFields_logs.log");
+
 
 
         $arFields['ORDER_PRODUCTS_TABLE'] .= '
@@ -332,8 +330,7 @@ function modifyNewOrderEmailFields($orderID, &$eventName, &$arFields)
             </tr>
         </table>
     ';
-    \Bitrix\Main\Diag\Debug::writeToFile($arFields['ORDER_DETAIL_TABLE'], '$arFields[ORDER_DETAIL_TABLE]', "/local/test/modifyNewOrderEmailFields_logs.log");
-    \Bitrix\Main\Diag\Debug::writeToFile($arFields['ORDER_PRODUCTS_TABLE'], '$arFields[ORDER_PRODUCTS_TABLE]', "/local/test/modifyNewOrderEmailFields_logs.log");
+    
 }
 
 if (file_exists($_SERVER["DOCUMENT_ROOT"]."/php_interface/include/functions.php"))
