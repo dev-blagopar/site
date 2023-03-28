@@ -39,6 +39,7 @@ $APPLICATION->IncludeComponent(
 		),
 		"FILTER_PRICE_CODE" => array(
 			0 => "Розница ООО Благопар",
+			1 => "OLD_PRICE",
 		),
 		"FILTER_OFFERS_FIELD_CODE" => array(
 			0 => "NAME",
@@ -116,6 +117,7 @@ $APPLICATION->IncludeComponent(
 		"DISPLAY_ELEMENT_SELECT_BOX" => "N",
 		"PRICE_CODE" => array(
 			0 => "Розница ООО Благопар",
+			1 => "WHOLESALE",
 		),
 		"USE_PRICE_COUNT" => "N",
 		"SHOW_PRICE_COUNT" => "1",
@@ -127,7 +129,7 @@ $APPLICATION->IncludeComponent(
 		"CURRENCY_ID" => "RUB",
 		"OFFERS_CART_PROPERTIES" => "",
 		"SHOW_TOP_ELEMENTS" => "Y",
-		"SECTION_COUNT_ELEMENTS" => "Y",
+		"SECTION_COUNT_ELEMENTS" => "N",
 		"SECTION_TOP_DEPTH" => "2",
 		"SECTIONS_LIST_PREVIEW_PROPERTY" => "UF_SECTION_DESCR",
 		"SHOW_SECTION_LIST_PICTURES" => "Y",
@@ -773,7 +775,7 @@ $APPLICATION->IncludeComponent(
 		"USE_LANGUAGE_GUESS" => "Y",
 		"NO_WORD_LOGIC" => "Y",
 		"SORT_REGION_PRICE" => "Розница ООО Благопар",
-		"SHOW_SECTION_DESC" => "N",
+		"SHOW_SECTION_DESC" => "Y",
 		"USE_ADDITIONAL_GALLERY" => "Y",
 		"ADDITIONAL_GALLERY_TYPE" => "BIG",
 		"ADDITIONAL_GALLERY_PROPERTY_CODE" => "-",
