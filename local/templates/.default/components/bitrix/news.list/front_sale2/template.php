@@ -95,11 +95,10 @@
 							<?// date active period?>
 							<?if($bActiveDate):?>
 								<div class="period-block<?=(!$bFonImg ? ' muted ncolor' : '');?> font_xs <?=($arItem['ACTIVE_TO'] ? 'red' : '');?>">
-									<?=CMax::showIconSvg("sale", SITE_TEMPLATE_PATH.'/images/svg/icon_discount.svg', '', '', true, false);?>
 									<?if(strlen($arItem['DISPLAY_PROPERTIES']['PERIOD']['VALUE'])):?>
+										<?=CMax::showIconSvg("sale", SITE_TEMPLATE_PATH.'/images/svg/icon_discount.svg', '', '', true, false);?>
 										<span class="date"><?=$arItem['DISPLAY_PROPERTIES']['PERIOD']['VALUE']?></span>
 									<?else:?>
-										<span class="date"><?=$arItem['DISPLAY_ACTIVE_FROM']?></span>
 									<?endif;?>
 								</div>
 							<?endif;?>

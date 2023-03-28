@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Блог");
 		"IBLOCK_ID" => "145",
 		"NEWS_COUNT" => "6",
 		"USE_SEARCH" => "N",
-		"USE_RSS" => "Y",
+		"USE_RSS" => "N",
 		"USE_RATING" => "N",
 		"USE_CATEGORIES" => "N",
 		"USE_FILTER" => "Y",
@@ -237,8 +237,6 @@ $APPLICATION->SetTitle("Блог");
 			"news" => "",
 			"section" => "#SECTION_CODE#/",
 			"detail" => "blog/#ELEMENT_CODE#/",
-			"rss" => "rss/",
-			"rss_section" => "#SECTION_ID#/rss/",
 		)
 	),
 	false

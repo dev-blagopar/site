@@ -8,20 +8,20 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/ymarket/index.php',
     'SORT' => 100,
   ),
+  2 => 
+  array (
+    'CONDITION' => '#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
+    'RULE' => 'alias=$1',
+    'ID' => '',
+    'PATH' => '/desktop_app/router.php',
+    'SORT' => 100,
+  ),
   4 => 
   array (
     'CONDITION' => '#^/bitrix/services/ymarket/order/accept#',
     'RULE' => '',
     'ID' => '',
     'PATH' => '/bitrix/services/ymarket/index.php',
-    'SORT' => 100,
-  ),
-  3 => 
-  array (
-    'CONDITION' => '#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
-    'RULE' => 'alias=$1',
-    'ID' => 'bitrix:im.router',
-    'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
   1 => 
@@ -32,11 +32,11 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/ymarket/index.php',
     'SORT' => 100,
   ),
-  2 => 
+  3 => 
   array (
     'CONDITION' => '#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
     'RULE' => 'alias=$1',
-    'ID' => '',
+    'ID' => 'bitrix:im.router',
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
@@ -272,20 +272,28 @@ $arUrlRewrite=array (
     'PATH' => '/lookbooks/index.php',
     'SORT' => 100,
   ),
-  89 => 
+  59 => 
   array (
-    'CONDITION' => '#^/services/#',
+    'CONDITION' => '#^/projects/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
-    'PATH' => '/services/index.php',
+    'PATH' => '/projects/index.php',
     'SORT' => 100,
   ),
-  30 => 
+  69 => 
   array (
-    'CONDITION' => '#^/landings/#',
+    'CONDITION' => '#^/personal/#',
+    'RULE' => '',
+    'ID' => 'bitrix:sale.personal.section',
+    'PATH' => '/personal/index.php',
+    'SORT' => 100,
+  ),
+  28 => 
+  array (
+    'CONDITION' => '#^/products/#',
     'RULE' => '',
     'ID' => 'bitrix:catalog',
-    'PATH' => '/landings/index.php',
+    'PATH' => '/products/index.php',
     'SORT' => 100,
   ),
   49 => 
@@ -304,31 +312,23 @@ $arUrlRewrite=array (
     'PATH' => '/company/vakansii/index.php',
     'SORT' => 100,
   ),
-  59 => 
+  30 => 
   array (
-    'CONDITION' => '#^/projects/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/projects/index.php',
-    'SORT' => 100,
-  ),
-  28 => 
-  array (
-    'CONDITION' => '#^/products/#',
+    'CONDITION' => '#^/landings/#',
     'RULE' => '',
     'ID' => 'bitrix:catalog',
-    'PATH' => '/products/index.php',
+    'PATH' => '/landings/index.php',
     'SORT' => 100,
   ),
-  69 => 
+  89 => 
   array (
-    'CONDITION' => '#^/personal/#',
+    'CONDITION' => '#^/services/#',
     'RULE' => '',
-    'ID' => 'bitrix:sale.personal.section',
-    'PATH' => '/personal/index.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/services/index.php',
     'SORT' => 100,
   ),
-  103 => 
+  109 => 
   array (
     'CONDITION' => '#^/catalog/#',
     'RULE' => '',
@@ -368,20 +368,20 @@ $arUrlRewrite=array (
     'PATH' => '/news/index.php',
     'SORT' => 100,
   ),
-  98 => 
-  array (
-    'CONDITION' => '#^/blog/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/blog/index.php',
-    'SORT' => 100,
-  ),
-  104 => 
+  106 => 
   array (
     'CONDITION' => '#^/sale/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/sale/index.php',
+    'SORT' => 100,
+  ),
+  108 => 
+  array (
+    'CONDITION' => '#^/blog/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/blog/index.php',
     'SORT' => 100,
   ),
 );
