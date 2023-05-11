@@ -1,9 +1,0 @@
-mbstring.func_overload = 2
-mbstring.internal_encoding = UTF-8
-
-default_socket_timeout = 60
-max_input_vars = 10000
-upload_max_filesize = 48M
-pcre.recursion_limit = 1000
-realpath_cache_size = 4096K
-date.timezone = Europe/Moscow

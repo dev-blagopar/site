@@ -229,7 +229,6 @@
 .bx-soa-item-td-text .bx-price {white-space: nowrap;}
 .bx-price-old {
     white-space: nowrap;
-    text-decoration: line-through;
     color: #B8B8B8;
     font-size: 13px;
 }
