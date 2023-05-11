@@ -87,3 +87,9 @@
 	width: 150px !important;
     height: 150px !important;
 }
+
+.top_big_banners .item .img_block {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: contain;
+}

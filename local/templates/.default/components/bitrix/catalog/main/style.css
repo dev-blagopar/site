@@ -5,6 +5,10 @@
   display: block;
 }
 
+.cost.prices .strike_block .price, .cost.prices .strike_block.offers_price {
+  text-decoration: none !important;
+}
+
 .product-container {
   position: relative;
   padding-top: 4px;
