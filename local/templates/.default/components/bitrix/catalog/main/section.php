@@ -15,6 +15,8 @@ $_SESSION['SMART_FILTER_VAR'] = $arParams['FILTER_NAME'];
 $bUseModuleProps = \Bitrix\Main\Config\Option::get("iblock", "property_features_enabled", "N") === "Y";
 
 $APPLICATION->SetPageProperty("HIDE_LEFT_BLOCK", (($arTheme["LEFT_BLOCK_CATALOG_SECTIONS"]["VALUE"] == "Y" && !($arTheme['HEADER_TYPE']['VALUE'] == 28 || $arTheme['HEADER_TYPE']['VALUE'] == 29)  ? "N" : "Y")));
+
+$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.mCustomScrollbar.js");
 ?>
 <?$APPLICATION->AddViewContent('right_block_class', 'catalog_page ');?>
 <?if(CMax::checkAjaxRequest2()):?>
