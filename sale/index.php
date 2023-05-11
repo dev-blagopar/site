@@ -2,6 +2,13 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Акции");
 ?>
+
+<style>
+.catalog_block .article_block, .catalog_block .item-stock {
+  display: none;
+}
+</style>
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"sale", 

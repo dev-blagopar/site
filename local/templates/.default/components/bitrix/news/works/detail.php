@@ -8,14 +8,6 @@
 	<a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["rss"]?>" title="RSS" class="rss_feed_icon"><?=GetMessage("RSS_TITLE")?></a>
 <?endif;?>
 
-<?
-if($arResult["VARIABLES"]["ELEMENT_ID"] > 0){
-	$arElement = CMshopCache::CIBLockElement_GetList(array('CACHE' => array("MULTI" =>"N", "TAG" => CMshopCache::GetIBlockCacheTag($arParams["IBLOCK_ID"]))), array("IBLOCK_ID" => $arParams["IBLOCK_ID"], "ACTIVE"=>"Y", "ID" => $arResult["VARIABLES"]["ELEMENT_ID"]), false, false, array("ID", "IBLOCK_SECTION_ID", "PREVIEW_TEXT", "PREVIEW_PICTURE", "DETAIL_PICTURE", "ACTIVE_FROM"));
-}
-elseif(strlen(trim($arResult["VARIABLES"]["ELEMENT_CODE"])) > 0){
-	$arElement = CMshopCache::CIBLockElement_GetList(array('CACHE' => array("MULTI" =>"N", "TAG" => CMshopCache::GetIBlockCacheTag($arParams["IBLOCK_ID"]))), array("IBLOCK_ID" => $arParams["IBLOCK_ID"], "ACTIVE"=>"Y", "=CODE" => $arResult["VARIABLES"]["ELEMENT_CODE"]), false, false, array("ID", "IBLOCK_SECTION_ID", "PREVIEW_TEXT", "PREVIEW_PICTURE", "DETAIL_PICTURE", "ACTIVE_FROM"));
-}
-?>
 <?if($arParams['USE_FILTER'] == 'Y'){
 	if(isset($arResult['VARIABLES']['YEAR']))
 	{
@@ -40,12 +32,6 @@ elseif(strlen(trim($arResult["VARIABLES"]["ELEMENT_CODE"])) > 0){
 		}
 	}
 }?>
-<?CMShop::AddMeta(
-	array(
-		'og:description' => $arElement['PREVIEW_TEXT'],
-		'og:image' => (($arElement['PREVIEW_PICTURE'] || $arElement['DETAIL_PICTURE']) ? CFile::GetPath(($arElement['PREVIEW_PICTURE'] ? $arElement['PREVIEW_PICTURE'] : $arElement['DETAIL_PICTURE'])) : false),
-	)
-);?>
 
 <?$bUseShare = ($arParams["USE_SHARE"] == "Y" && $arElement);?>
 

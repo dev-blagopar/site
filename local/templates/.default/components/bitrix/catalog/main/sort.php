@@ -137,8 +137,8 @@ $bShowSortInFilter = ($arParams['SHOW_SORT_IN_FILTER'] != 'N');
 					$sort = ToUpper($_SESSION["sort"]);
 				}
 				else{
-					$sort = ToUpper($arParams["ELEMENT_SORT_FIELD"]);					
-					$sort = (strpos($sort, 'SCALED_PRICE_') === 0) ? 'PRICE' : $sort;					
+                    $sort = ToUpper($arParams["ELEMENT_SORT_FIELD"]);
+					$sort = (strpos($sort, 'SCALED_PRICE_') === 0) ? 'PRICE' : $sort;
 				}
 			}
 
