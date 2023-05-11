@@ -142,6 +142,7 @@ Asset::getInstance()->addCss( 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bund
 	<div class="clear"></div>
 
     <style>
+        ul:not([id*=bx_])>li:before {display: none;}
         .swiper ul.swiper-wrapper:not([id*=bx_])>li:before {
           display: none;
         }
